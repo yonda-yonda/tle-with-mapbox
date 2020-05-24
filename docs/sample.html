@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>TLE</title>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        #map {
+            height: 480px;
+        }
+
+        textarea {
+            width: 450px;
+            height: 3em;
+            line-height: 1.5;
+            font-size: 12px;
+        }
+
+        #error {
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div style="margin-top: 20px;">
+        <textarea id="tle"></textarea>
+    </div>
+    <div>
+        <button id="add">追加</button>
+        <p id="error"></p>
+    </div>
+</body>
+<script src='../dist/tle.js'></script>
+<script>
+
+</script>
+
+</html>

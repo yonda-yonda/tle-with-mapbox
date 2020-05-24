@@ -1,0 +1,27 @@
+{
+  "name": "tle-with-mapbox",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "regenerator-runtime": "^0.13.3",
+    "terser-webpack-plugin": "^2.3.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.11",
+    "webpack-stream": "^5.2.1"
+  },
+  "author": "yonda-yonda",
+  "license": "MIT",
+  "dependencies": {
+    "sgp4": "^1.0.10",
+    "tle-validator": "0.0.1"
+  }
+}
